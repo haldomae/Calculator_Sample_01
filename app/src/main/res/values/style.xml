@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/calculator_num_key_custom</item>
+    </style>
+
+    <style name="OperatorButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/calculator_operator_key_custom</item>
+    </style>
+</resources>
