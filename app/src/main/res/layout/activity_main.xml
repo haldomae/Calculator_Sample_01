@@ -11,7 +11,7 @@
         android:id="@+id/calcLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:textSize="50sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,10 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="0,1,2,3"
-        app:layout_constraintTop_toBottomOf="@id/calcLabel"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/calcLabel">
+        app:layout_constraintBottom_toBottomOf="parent">
         <TableRow
             android:id="@+id/row1"
             android:layout_width="wrap_content"
@@ -90,12 +90,12 @@
                 android:id="@+id/key2"
                 style="@style/NumButtonStyle"
                 app:backgroundTint="@null"
-                android:text="@string/key_5"/>
+                android:text="@string/key_2"/>
             <Button
                 android:id="@+id/key3"
                 style="@style/NumButtonStyle"
                 app:backgroundTint="@null"
-                android:text="@string/key_6" />
+                android:text="@string/key_3" />
             <Button
                 android:id="@+id/keySub"
                 style="@style/OperatorButtonStyle"
@@ -112,11 +112,20 @@
                 app:backgroundTint="@null"
                 android:text="@string/key_0"
                 />
-
             <Button
                 android:id="@+id/keyEqual"
                 style="@style/OperatorButtonStyle"
                 android:text="@string/key_equal"
+                app:backgroundTint="@null" />
+            <Button
+                android:id="@+id/keyClear"
+                style="@style/OperatorButtonStyle"
+                android:text="@string/key_clear"
+                app:backgroundTint="@null" />
+            <Button
+                android:id="@+id/keyAdd"
+                style="@style/OperatorButtonStyle"
+                android:text="@string/key_add"
                 app:backgroundTint="@null" />
 
         </TableRow>
